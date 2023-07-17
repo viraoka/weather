@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <div id="container">
+
+        <div id="header">
+            <input id="input" type="text" spellcheck="false" placeholder="Please enter the city...">
+        </div>
+
+        <div id="where-when">
+            <p id="city">Montreal, CA</p>
+            <p id="date">Tuesday 13 December 2022</p>
+        </div>
+
+        <div id="now">
+            <p id="temperature">2°</p>
+            <p id="feelsLike">Feels like: 0°</p>
+            <p id="conditions">Sunny</p>
+            <p id="variations">Min: 0° Max: 4°</p>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
